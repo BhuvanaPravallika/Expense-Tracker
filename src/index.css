@@ -1,0 +1,213 @@
+body {
+  background-color: #eef2f5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #2c3e50;
+  text-align: center;
+}
+
+h3, h4 {
+  margin-top: 30px;
+  color: #34495e;
+  text-align: center;
+}
+
+.form-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.form {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.form input {
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  transition: border-color 0.2s ease;
+}
+
+.form input:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+
+.balance-box {
+  min-width: 180px;
+  padding: 16px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.balance-box h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #2c3e50;
+}
+
+.balance-box .balance {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-top: 8px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+  background-color: #fafafa;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+table th, table td {
+  padding: 12px 14px;
+  border-bottom: 1px solid #e0e0e0;
+  text-align: left;
+  width: 50px;
+  margin: 50px;
+}
+
+table th {
+  background-color: #ecf0f1;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+table tr:last-child td {
+  border-bottom: none;
+}
+
+table td:last-child {
+  text-align: center;
+}
+
+.delete-button {
+  background-color:  orangered;
+  color: white;
+  padding: 8px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #e74c3c;
+}
+
+table td:last-child,
+table th:last-child {
+  text-align: center;
+  width: 100px; /* Optional: gives consistent width */
+}
+
+.container {
+  padding: 20px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.error-message {
+  color: #d32f2f;
+  font-size: 12px;
+  margin-top: 4px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+.edit-button {
+  background-color:#1976D2;
+  color: white;
+  padding: 8px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.edit-button:hover {
+  background-color: #2196F3;
+}
+
+.update-button {
+  background-color: #1976D2;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.update-button:hover {
+  background-color: #2196F3;
+}
+
+
+
+.add-button {
+  align-self: center;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+  background-color: #43a047;
+}
+
+.cancel-button {
+  background-color: #E64A19; /* Grey */
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.cancel-button:hover {
+  background-color: #FF5722;
+}
